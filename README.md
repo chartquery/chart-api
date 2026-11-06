@@ -27,6 +27,7 @@ Use it for charts in emails, PDF reports, Slack bots, dashboards and AI assistan
 - [Use cases](#use-cases)
 - [Why ChartQuery?](#why-chartquery)
 - [FAQ](#faq)
+- [Official SDKs](#official-sdks)
 - [Related repositories](#related-repositories)
 - [Support](#support)
 
@@ -219,6 +220,22 @@ The response body is the file itself (image or document). Save it directly to di
 ### Which languages are supported?
 
 Any language that can make an HTTP request. This README shows Python and TypeScript; the [`examples/`](examples) folder contains cURL, PHP, C#, Go, Java, Ruby and Node.js.
+
+## Official SDKs
+
+Use ChartQuery from your own language with a typed client:
+
+| SDK | Package | Install |
+| --- | --- | --- |
+| Node.js | [`@chartquery/sdk`](https://www.npmjs.com/package/@chartquery/sdk) | `npm install @chartquery/sdk` |
+| Python | [`chartquery`](https://pypi.org/project/chartquery/) | `pip install chartquery` |
+| Go | [`chartquery-go`](https://pkg.go.dev/github.com/chartquery/chartquery-go) | `go get github.com/chartquery/chartquery-go` |
+| .NET | [`ChartQuery`](https://www.nuget.org/packages/ChartQuery) | `dotnet add package ChartQuery` |
+| Ruby | [`chartquery`](https://rubygems.org/gems/chartquery) | `gem install chartquery` |
+| PHP | [`chartquery/sdk`](https://packagist.org/packages/chartquery/sdk) | `composer require chartquery/sdk` |
+| Java | [`chartquery-java`](https://github.com/chartquery/chartquery-java) | build from source, see its README |
+| CLI | [`@chartquery/cli`](https://www.npmjs.com/package/@chartquery/cli) | `npm install -g @chartquery/cli` |
+| MCP server | [`@chartquery/mcp`](https://www.npmjs.com/package/@chartquery/mcp) | `npx -y @chartquery/mcp` |
 
 ## Related repositories
 
